@@ -49,7 +49,7 @@ public class Main {
 
         ServiceProductImpl serviceProductImpl = new ServiceProductImpl();
         System.out.println("Login и password жазыныз");
-        serviceProductImpl.discount(scanner.nextLine(), scanner.nextLine(),list);
+        serviceProductImpl.checkToManager(scanner.nextLine(), scanner.nextLine(),list);
 
 
     }

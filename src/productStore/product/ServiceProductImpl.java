@@ -41,7 +41,7 @@ public class ServiceProductImpl implements ServiceProduct {
     }
 
     @Override
-    public void discount(String login, String password, List<Product> list) {
+    public void checkToManager(String login, String password, List<Product> list) {
         if (login.equals(Manager.login) && password.equals(Manager.password)) {
             System.out.println(ANSI_BLUE+"Welcome to Globus -> store Asan Tairovich"+ANSI_RESET);
             companyVerification(list);
